@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/background-body.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.email{
+   
+    font-family:  Times, serif;
+    font-size: 25px;
+    width: 550px;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  border: 6px solid black;
+}
+
+
+input {
+    width: 95%;
+    padding: 8px 0;
+    margin: 8px 0;
+    text-align: center;
+}
+
+
+input[type=text] {
+
+    height: 100px;
+
+}
+
+label{
+    background: #ccc;
+    border: solid 2px ;
+    border-radius:12%;
+    padding: 4px;
+}
+button {
+    width: 100px;
+    background: #9c9a9a;
+    border-radius: 12%;
+    padding: 5px;
+    margin-bottom: 2px;
+}
