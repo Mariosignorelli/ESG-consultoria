@@ -222,13 +222,13 @@ img{
       visibility: hidden;
     }
     .tel{
-        position:relative;
+        position:absolute;
         left: 30px;
-        
+        bottom: 75px;
     }
     .zap{
         position: absolute;
-        right: 30px;
+        left:100px;
        
     }
     .logo img {
