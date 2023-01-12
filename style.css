@@ -218,7 +218,8 @@ img{
         background-color: #eee;
     }
     .midia{
-      display: flex;   
+      display: flex;  
+      justify-self: start; 
     }
     .fa-envelope{
       visibility: hidden;
@@ -250,11 +251,36 @@ img{
     }
     .top-header p{
         text-align: center;
-        font-size: 25px;
+        font-size: auto;
     }
 }
-@media screen and (min-width:100px)and (max-width:260px){
+@media screen and  (min-width:200px) and (max-width:359px){
     body{
-        background-image: none;
+       background-image: none;
+       background-color: #ccc;
+}
+.logo img{
+    display: none;
+}
+.container{
+    display: none;
+}
+.top-header  h1{
+font-size: auto ;
+  color: rgb(14, 14, 240);
+}
+.zap{
+    display: none;
+}
+.tel{
+    display: none;
+}
+.tel-responsivo{
+    display: block;
+}
+}
+@media screen and (max-width:199px){
+    body{
+        display: none;
     }
 }
