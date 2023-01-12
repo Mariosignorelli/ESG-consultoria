@@ -210,9 +210,11 @@ img{
         transform: translateX(-300%);
     }
 }
-@media screen and (min-width:260px)and (max-width:900px){
+@media screen and (min-width:360px)and (max-width:900px){
     body{
-        background-image: none;
+        background-image: url(./img/background-body.jpg);
+        background-size: inherit;
+        background-repeat: repeat;
         background-color: #eee;
     }
     .midia{
@@ -224,11 +226,12 @@ img{
     .tel{
         position:absolute;
         left: 30px;
-        bottom: 85px;
+        top: 545px;
     }
     .zap{
         position: absolute;
         left:100px;
+        top: 537px;
        
     }
     .logo img {
